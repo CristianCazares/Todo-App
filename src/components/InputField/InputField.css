@@ -1,0 +1,44 @@
+.input {
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 4px;
+    font-size: 25px;
+    padding: 8px;
+    font-family: Calibri, sans-serif;
+    transition: 0.2s;
+}
+
+.input-field:focus {
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.input-submit {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    right: 0px;
+    border: none;
+    font-size: 35px;
+    color: #FFF;
+    background-color: #E94560;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.input-submit:hover{
+    background-color: #fd2e51;
+}
+
+.input-submit:active{
+    transform: scale(0.8);
+}
